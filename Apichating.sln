@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiChating.WebApi", "ApiChating.WebApi\ApiChating.WebApi.csproj", "{57173CBB-8B81-47A5-A710-9D726BA89DF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57173CBB-8B81-47A5-A710-9D726BA89DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57173CBB-8B81-47A5-A710-9D726BA89DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57173CBB-8B81-47A5-A710-9D726BA89DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57173CBB-8B81-47A5-A710-9D726BA89DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F5DAD8E-9AAE-426A-85AF-42CB26D3612F}
+	EndGlobalSection
+EndGlobal
