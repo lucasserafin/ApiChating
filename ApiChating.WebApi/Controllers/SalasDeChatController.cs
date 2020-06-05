@@ -19,7 +19,7 @@ namespace ApiChating.WebApi.Controllers
         {
             this.context = context;
         }
-
+      
 
 
         [HttpGet]
@@ -44,8 +44,7 @@ namespace ApiChating.WebApi.Controllers
         public ActionResult<SalaChat> Post([FromBody]SalaChat salachat)
         {
             context.SalasDeChat.Add(salachat);
-            context.SaveChanges();
-            //return salachat;
+            context.SaveChanges();           
             return new CreatedAtRouteResult("ObtenerSalachatPorId", new { Id = salachat.Id }, salachat);
         }
 
